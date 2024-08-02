@@ -30,7 +30,7 @@ export default function Home() {
   const route = useRouter();
 
   const fetchFood = async () => {
-    const response = await fetch("/api/all");
+    const response = await fetch("/api/foods/all");
     const data = await response.json();
     setIsloading(false);
 
