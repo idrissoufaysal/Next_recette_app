@@ -72,7 +72,7 @@ export default function Home() {
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-[300px] p-0 ">
-              <Command className="bg-green-300 text-black">
+              <Command className=" text-black">
                 <CommandInput placeholder="Search food..." />
                 <CommandEmpty>No food found.</CommandEmpty>
                 <CommandList>
@@ -100,6 +100,7 @@ export default function Home() {
                         }}
                       >
                         {food.label}
+
                       </div>
                     </CommandItem>
                   ))}
