@@ -85,8 +85,7 @@ export default function Home() {
                         setOpen(false);
                         route.push(`food/${food.value}`);
                       }}
-                      onClick={() => {
-                      }}
+                      onClick={() => {}}
                     >
                       <Check
                         className={cn(
@@ -100,7 +99,6 @@ export default function Home() {
                         }}
                       >
                         {food.label}
-
                       </div>
                     </CommandItem>
                   ))}
