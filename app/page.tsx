@@ -17,7 +17,6 @@ import {
 } from "@/components/ui/popover";
 import { Check, ChevronsUpDown } from "lucide-react";
 import { CommandList } from "cmdk";
-import { log } from "console";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
